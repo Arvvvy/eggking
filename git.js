@@ -3,7 +3,7 @@ let model;
 async function loadModel() {
     if (!model) {
         try {
-            model = await tf.loadGraphModel('https://github.com/Arvvvy/eggking/blob/main/model/model.json'); // Sesuaikan path model
+            model = await tf.loadGraphModel('github.com/Arvvvy/eggking/blob/main/model/model.json'); // Sesuaikan path model
             console.log('Model loaded successfully');
         } catch (error) {
             console.error('Error loading model:', error);
